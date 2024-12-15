@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%),url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Italian-food-download-hd-wallpapers-768x432.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1500px;
+    height: 85px;
+    margin: auto;
+}
+.icon{
+    width: 100px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 38px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 15px;
+}
+.menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 27px;
+    font-size: 18.5px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.search{
+    width: 350px;
+    float: left;
+    margin-left: 390px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 190px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: rgb(255, 255, 255);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    font-size: 45px;
+    font-family: 'Times New Roman';
+}
+.contact{
+    padding-left: 30.9%;
+}
+.form{
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.3)50%,rgba(0, 0, 0, 0.3)50%);
+    padding: 20px;
+    text-align: center;
+    width: 550px;
+}
+.form input{
+    background: transparent;
+    border-bottom: 2px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    height: 30px;
+    width: 250px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+    text-align: center;
+    font-size: large;
+}
+.form label{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+}
+.btnn{
+    width: 140px;
+    height: 35px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background-color: #fff;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

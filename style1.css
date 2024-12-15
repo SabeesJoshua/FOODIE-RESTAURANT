@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image:linear-gradient(to top,rgba(0, 0, 0, 0.4)50%,rgba(0, 0, 0, 0.4)50%),url(https://www.blogenium.com/wp-content/uploads/2019/08/blogenium-fast-food-hd-wallpaper-9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.icon{
+    width: 100px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 38px;
+    font-family: Arial;
+    padding-left: 38px;
+    float: left;
+    padding-top: 15px;
+}
+.menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+    padding-left: 18px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 27px;
+    font-size: 18.5px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.search{
+    width: 350px;
+    float: left;
+    margin-left: 390px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 190px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: rgb(255, 255, 255);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.about{
+    text-align: center;
+    padding-top: 6%;
+    font-family: Arial;
+}
+.about h1{
+    font-size: 45px;
+    color: #fff;
+    font-family: 'Times New Roman';
+}
+.about p{
+    font-size: x-large;
+    color: #fff;
+    font-weight: 100;
+    padding-top: 2%;
+    line-height: 40px;
+}
+.about p span{
+    color:#ff7200;
+}
+.end{
+    float: right;
+    padding-top: 30px;
+    padding-right: 120px;
+    font-family: Arial;
+    color: #fff;
+    font-size: larger;
+}
+fieldset{
+    padding: 60px;
+}
